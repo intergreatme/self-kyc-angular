@@ -9,6 +9,7 @@ This project is a starting point for building your own Self KYC application with
 A few resources to get you started if this is your first AngularJS project:
 <br>
 
+<a href="https://cli.angular.io/">Angular CLI</a>
 > npm install -g @angular/cli,
 > ng new my-dream-app,
 > cd my-dream-app,
