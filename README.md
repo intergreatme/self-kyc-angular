@@ -10,10 +10,10 @@ A few resources to get you started if this is your first Angular project:
 <br>
 
 <a href="https://cli.angular.io/">Angular CLI</a>
-> npm install -g @angular/cli,
-> ng new my-dream-app,
-> cd my-dream-app,
-> ng serve
+> npm install -g @angular/cli <br>
+> ng new my-dream-app <br>
+> cd my-dream-app <br>
+> ng serve <br>
 
 <strong>ng new</strong>
 The Angular CLI makes it easy to create an application that already works, right out of the box. It already follows our best practices!
