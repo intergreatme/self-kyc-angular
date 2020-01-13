@@ -5,8 +5,8 @@ An application for implementing the Intergreatme Self Know Your Customer service
 <h1>Getting Started</h1>
 <br>
 
-This project is a starting point for building your own Self KYC application with AngularJS.
-A few resources to get you started if this is your first AngularJS project:
+This project is a starting point for building your own Self KYC application with Angular.
+A few resources to get you started if this is your first Angular project:
 <br>
 
 <a href="https://cli.angular.io/">Angular CLI</a>
@@ -27,4 +27,4 @@ Easily test your app locally while developing.
 <strong>Test, Lint</strong>
 Make your code really shine. Run your unit tests, your end-to-end tests, or execute the official Angular linter with the breeze of a command.
 
-For more information to get you started with AngularJS here are some <a href="https://angular.io/cli/">Online Documents.</a> 
+For more information to get you started with Angular here are some <a href="https://angular.io/cli/">Online Documents.</a> 
