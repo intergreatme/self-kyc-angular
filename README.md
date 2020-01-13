@@ -1,10 +1,13 @@
-igm_self_kyc
+<h1>igm_self_kyc</h1>
+<br>
 An application for implementing the Intergreatme Self Know Your Customer services
 
-Getting Started
-This project is a starting point for building your own Self KYC application with AngularJS.
+<h1>Getting Started</h1>
+<br>
 
+This project is a starting point for building your own Self KYC application with AngularJS.
 A few resources to get you started if this is your first AngularJS project:
+<br>
 
 > npm install -g @angular/cli,
 > ng new my-dream-app,
