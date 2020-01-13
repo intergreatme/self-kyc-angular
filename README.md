@@ -23,4 +23,4 @@ Easily test your app locally while developing.
 <strong>Test, Lint</strong>
 Make your code really shine. Run your unit tests, your end-to-end tests, or execute the official Angular linter with the breeze of a command.
 
-For more information to get you started with AngularJS here are some <a href="https://cli.angular.io/">Online Documents.</a> 
+For more information to get you started with AngularJS here are some <a href="https://angular.io/cli/">Online Documents.</a> 
