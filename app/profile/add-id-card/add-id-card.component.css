@@ -1,0 +1,53 @@
+.container {
+  max-width: 600px;
+}
+
+.mat-card {
+  background-color: #0079C0;
+  border-radius: 5px;
+}
+
+.mat-card-header {
+  color: #FFFFFF;
+}
+
+.example-header-image {
+  color: #0079C0;
+}
+
+.mat-card-content {
+  color: #0079C0;
+}
+
+.mat-car-actions {
+  color: white;
+  background-color: #0079C0;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.button {
+  font-size: 18px;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+
+.Button {
+  background: #0079C0;
+  border-radius:10px;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size:18px;
+  padding:8px 50px;
+  text-decoration:none;}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.d-flex flex-column align-items-center {
+  max-width: 100%;
+}

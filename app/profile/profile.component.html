@@ -1,0 +1,90 @@
+<br>
+<div class="container"
+     style="background-color: #222222"><div class="card m-3">
+  <br>
+  <br>
+  <img src="assets/img/fingerprint.png"
+       alt="Id Icon"
+       class=""
+       height="140" width="110"><br><br>
+  <h2 *ngIf="profile != null">{{ profile.first_name }}&nbsp;{{ profile.last_name }}</h2>
+  <h4 *ngIf="profile != null">{{ profile.document_number }}</h4>
+
+  <br>
+</div>
+</div>
+
+<br>
+
+<div class="container"
+     style="background-color: #C5E2F4"
+     color="lightgrey"><div class="card m-3">
+  <br>
+  <br>
+  <img src="assets/img/id book.png"
+       alt="id-card"
+       class=""
+       height="80" width="110">
+  <H3>Click to add ID Book</H3>
+  <br>
+</div>
+</div>
+
+<br>
+
+<div class="container"
+     type="submit" routerLink="/add-id-card"
+     style="box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
+  <br>
+  <br>
+  <img src="assets/img/id-card-wht.png"
+       alt="Id Icon"
+       height="70" width="100">
+  <H3>Click to add ID Card</H3><p>Click to upload your ID Card</p>
+  <br>
+</div>
+
+<br>
+
+<div class="container"
+     style="background-color: #C5E2F4">
+  <br>
+  <br>
+  <img src="assets/img/worldwide.png"
+       alt="Id Icon"
+       height="100" width="100">
+  <H3>Click to add Passport</H3>
+  <br>
+</div>
+
+<br>
+
+<div class="container"
+     type="submit" routerLink="/add-por"
+     style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
+  <br>
+  <br>
+  <img src="assets/img/house.png"
+       alt="PoR"
+       height="80" width="100">
+  <H3>Click to add PoR</H3><p>Click to upload your Proof of Residence</p>
+  <br>
+</div>
+
+<br>
+
+<div class="container"
+     style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
+  <br>
+  <br>
+  <img src="assets/img/avatar.png"
+       alt="Liveliness"
+       height="90" width="100">
+  <H3>Liveliness Detection</H3><p>Click to start Liveliness</p>
+  <br>
+</div>
+
+<br>
+<br>
+
+<button class="Button" type="submit" routerLink="/form">Submit</button>

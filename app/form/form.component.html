@@ -1,0 +1,146 @@
+<div [formGroup]="registerForm" (ngSubmit)="onSubmit()" class="container"
+     style="box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
+  <br>
+  <br>
+         <label>ID Number</label>
+          <input type="number"
+                 formControlName="idNumber"
+                 class="form-control"
+                 name="idNumber"
+                 value="8908315385084">
+          <span
+            *ngIf="!registerForm.get('idNumber').valid && registerForm.get('idNumber').touched"
+            class="help-block">Please enter a valid ID Number!</span>
+  <br>
+
+
+  <label>First Name</label>
+          <input type="text"
+                 formControlName="firstName"
+                 class="form-control"
+                 name="firstName"
+                 value="Vusi">
+          <span
+            *ngIf="!registerForm.get('firstName').valid && registerForm.get('firstName').touched"
+            class="help-block">Please enter your First Name!</span>
+  <br>
+
+
+  <label>Surname</label>
+          <input type="text"
+                 formControlName="surname"
+                 class="form-control"
+                 name="surname"
+                 value="Mnisi">
+          <span
+            *ngIf="!registerForm.get('surname').valid && registerForm.get('surname').touched"
+            class="help-block">Please enter your Last Name!</span>
+  <br>
+
+
+  <label>Email</label>
+          <input type="text"
+                 formControlName="email"
+                 class="form-control"
+                 name="email"
+                 value="vusi@intergreatme.com">
+          <span
+            *ngIf="!registerForm.get('email').valid && registerForm.get('email').touched"
+            class="help-block">Please enter a valid email!</span>
+  <br>
+
+
+  <label>Mobile Number</label>
+          <input type="number"
+                 formControlName="mobileNumber"
+                 class="form-control"
+                 name="mobileNumber"
+                 value="0609849639">
+          <span
+            *ngIf="!registerForm.get('mobileNumber').valid && registerForm.get('mobileNumber').touched"
+            class="help-block">Please enter a valid Mobile Number!</span>
+  <br>
+
+
+  <br>
+        <br>
+
+          <label>Address</label>
+          <input type="address"
+                 placeholder="Unit Complex"
+                 formControlName="address"
+                 class="form-control">
+  <br>
+
+
+  <input type="address"
+                 placeholder="Line 1"
+                 formControlName="address"
+                 class="form-control">
+  <br>
+
+
+  <input type="address"
+                 placeholder="Line 2"
+                 formControlName="address"
+                 class="form-control">
+  <br>
+
+
+  <input type="address"
+                 placeholder="Suburb"
+                 formControlName="address"
+                 class="form-control">
+  <br>
+
+
+  <input type="address"
+                placeholder="City"
+                formControlName="address"
+                class="form-control">
+  <br>
+
+
+  <input type="address"
+                 placeholder="Province"
+                 formControlName="address"
+                 class="form-control">
+  <br>
+
+
+  <input type="address"
+                 placeholder="Postal Code"
+                 formControlName="address"
+                 class="form-control">
+  <br>
+
+
+  <input type="address"
+                 placeholder="Country"
+                 formControlName="address"
+                 class="form-control">
+  <br>
+
+
+  <input type="address"
+                 placeholder="Latitude"
+                 formControlName="address"
+                 class="form-control">
+  <br>
+
+
+  <input type="address"
+                 placeholder="Longitude"
+                 formControlName="address"
+                 class="form-control">
+  <br>
+
+  <button [disabled]="loading"
+          *ngIf="!registerForm.valid && registerForm.touched"
+          class="help-block">Please enter valid data!</button>
+  <a class="Button" type="submit" routerLink="/profile" (click)="onSubmit()">Next</a>
+
+  <br>
+  <br>
+
+</div>
